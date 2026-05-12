@@ -10,7 +10,8 @@ Use an Ubuntu host with:
 
 - NVIDIA GPU drivers and the NVIDIA Container Toolkit
 - Docker
-- Ollama running on port `11434`
+- **Ollama `0.22.1`** running on port `11434` on DGX Spark / GB10. Newer
+  `0.23.x` builds have been observed to fall back to CPU-only execution on GB10.
 - `git`, `curl`, `python3`, `ssh`, and `scp`
 - Passwordless sudo for the user running the demo
 
